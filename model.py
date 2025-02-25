@@ -7,7 +7,6 @@ from PIL import Image
 import io
 import base64
 
-# Disable Werkzeug request logging
 logging.getLogger('werkzeug').disabled = True
 
 app = Flask(__name__)
